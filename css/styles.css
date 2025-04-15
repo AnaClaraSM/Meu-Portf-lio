@@ -1,0 +1,34 @@
+/* Imports */
+
+/* Fonts */
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    /* Base Colors */
+    --white: #ffffff;
+    --black: #000000;
+
+    /* Pink Palette */
+    --pink-lightest: #fff5fa;
+    --pink-light: #ff9bcd;
+    --pink-medium: #bd2b74;
+    --pink-dark: #701944;
+
+    /* Semantic Colors (Light Mode) */
+    --background: var(--pink-lightest); 
+    --surface: var(--white); /* cards, inputs, menus */
+    --primary: var(--pink-medium); /* buttons, links, key-elements */
+    --primary-hover: #a32566;
+    --accent: var(--pink-light); /* secondary highlights or decorative*/
+    --text-primary: var(--pink-dark); /* cards, inputs, menus */
+    --text-secondary: #5e3250; /* cards, inputs, menus */
+    --border: #f4c8dd; /*  */
+}
+
